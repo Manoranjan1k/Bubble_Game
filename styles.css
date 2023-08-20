@@ -8,6 +8,7 @@ html,body{
     width: 100%;
     height: 100%;
 }
+@media (max-width:1300px) {
 #main{
     display: flex;
     align-items: center;
@@ -16,15 +17,16 @@ html,body{
     height: 100%;
     background-color: rgb(193, 235, 193);
 }
+}
 #panel{
     overflow: hidden;
     width: 80%;
     height: 90%;
     border-radius: 10px;
     background-color: #fff;
-}
+}   
 #ptop{
-    padding: 0px 20%;
+    padding: 0% 7%;
     justify-content: space-between;
     display: flex;
    align-items: center;
@@ -88,4 +90,94 @@ html,body{
     background-color: rebeccapurple;
     width: 20px;
     height: 10px;
+}
+@media screen and (max-width: 320px) {
+    #pbtm{
+        overflow: scroll;
+    }
+    #ptop{
+        /* padding: 0% 0%;
+        justify-content: space-between; */
+        display: flex;
+       align-items: center;
+        color: #fff;
+        width: 100%;
+        height: 15%;
+        background-color: rgb(72, 104, 72);
+    }
+    .elem{
+        /* background: #000; */
+      
+        display: flex;
+        align-items: center;
+        gap: 10px;
+    }
+    .elem h2{
+        font-weight: 500;
+        font-size: 12px;
+    }
+    .box{
+        color:rgb(37, 197, 37);
+        margin-right: 5px;
+        font-weight: 500;
+        font-size: 16px;
+        padding: 10px 8px;
+        background-color: #fff;
+        border-radius: 3px;
+    }
+    .bubble{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 35px;
+        height: 35px;
+        background:#2A735C;
+        border-radius: 50%;
+        color: #f5eeee;
+    }
+}
+@media screen and (max-width: 426px) {
+    #pbtm{
+        overflow: scroll;
+    }
+    #ptop{
+        /* padding: 0% 0%;
+        justify-content: space-between; */
+        display: flex;
+       align-items: center;
+        color: #fff;
+        width: 100%;
+        height: 15%;
+        background-color: rgb(72, 104, 72);
+    }
+    .elem{
+        /* background: #000; */
+      
+        display: flex;
+        align-items: center;
+        gap: 10px;
+    }
+    .elem h2{
+        font-weight: 500;
+        font-size: 12px;
+    }
+    .box{
+        color:rgb(37, 197, 37);
+        margin-right: 5px;
+        font-weight: 500;
+        font-size: 16px;
+        padding: 10px 8px;
+        background-color: #fff;
+        border-radius: 3px;
+    }
+    .bubble{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 40px;
+        height: 40px;
+        background:#2A735C;
+        border-radius: 50%;
+        color: #f5eeee;
+    }
 }
